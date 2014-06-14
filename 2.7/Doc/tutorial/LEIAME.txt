@@ -1,0 +1,10 @@
+O conteúdo deste diretório (2.7/) foi copiado de um checkout do branch 2.7
+do código-fonte do CPython, feito assim::
+
+  $ hg clone http://hg.python.org/cpython
+  $ hg checkout 2.7
+  $ hg branch  # apenas para ter certeza
+  2.7
+
+Depois foram usados os scripts mk_dirs.sh e cp_py_src.sh para copiar para
+cá as partes necessárias.

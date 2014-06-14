@@ -1,0 +1,34 @@
+Este repositório é operado pela equipe PythonDoc da comunidade Python Brasil.
+
+http://www.python.org.br/wiki/PythonDoc
+
+Nosso objetivo é traduzir toda a documentação oficial da linguagem Python
+para o porutguês do Brasil.
+
+Veja no arquivo CREDITOS.txt quem já colaborou com esta iniciativa.
+
+Procedimento para obter os arquivos da versão 2.7 da documentação
+=================================================================
+
+Obtenha um clone do repositório oficial do cpython (este passo pode levar 15
+minutos ou mais, dependendo da sua conexão)::
+
+  $ hg clone http://hg.python.org/cpython
+  
+Entre no diretório raiz do repositório e altere a cópia de trabalho local 
+para o branch 2.7::
+
+  $ cd cpython/
+  $ hg update -C 2.7
+  
+Verifique o valor da constante ``PY_VERSION`` no arquivo ``patchlevel.h`` 
+para assegurar-se de que está realmente no branch 2.7::
+
+  $ less Include/patchlevel.h
+
+Copie o arquivo que pretende traduzir do diretório ``Doc/`` para sua cópia
+de trabalho do repositório ``pydoc-br``. Por exemplo::
+
+  $ cp Doc/tutorial/modules.rst ../pydoc-br/main/2.7/Doc/tutorial/modules.rst
+  
+
