@@ -92,7 +92,7 @@ ponto. Na expressão ``z.real``, por exemplo, ``real`` é um atributo do objeto
 ``z``. Estritamente falando, referências para nomes em módulos são atributos:
 na expressão ``nomemod.nomefunc``, ``nomemod`` é um objeto módulo e
 ``nomefunc`` é um de seus atributos. Neste caso, existe um mapeamento direto
-entre os os atributos de um módulo e os nomes globais definidos no módulo:
+entre os atributos de um módulo e os nomes globais definidos no módulo:
 eles compartilham o mesmo espaço de nomes! [#]_
 
 Atributos podem ser somente para leitura ou para leitura e escrita. No segundo

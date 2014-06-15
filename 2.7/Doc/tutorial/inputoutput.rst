@@ -104,8 +104,8 @@ A seguir, duas maneiras de se escrever uma tabela de quadrados e cubos:::
    10 100 1000
 
 (Note que um espaço foi inserido entre as colunas no primeiro exemplo. É
-assim que o comando print :keyword:`print` funciona: ele sempre insere
-espaço entre seus argumentos.)
+assim que o comando :keyword:`print` funciona: ele sempre insere espaço entre
+seus argumentos.)
 
 Esse exemplo demonstra o método :meth:`str.rjust` de objetos string, que
 alinha uma string à direita juntando espaços adicionais à esquerda. Existem
@@ -279,7 +279,7 @@ encoding do arquivo será feita automaticamente. Note que ao usar
 :func:`io.open` sempre faz diferença especificar se o arquivo é binário ou
 texto, em todos os sistemas operacionais: o modo texto é o default, mas se
 quiser ser explícito coloque a letra ``t`` no parâmetro ``mode`` (ex. ``rt``,
-``wt`` etc.); use use a letra ``b`` (ex. ``rb``, ``wb`` etc.) para especificar
+``wt`` etc.); use a letra ``b`` (ex. ``rb``, ``wb`` etc.) para especificar
 modo binário. Somente em modo texto os métodos de gravação e leitura aceitam e
 devolvem strings ``unicode``. Em modo binário, o método ``write`` aceita
 strings de bytes, e os métodos de leitura devolvem strings de bytes também.

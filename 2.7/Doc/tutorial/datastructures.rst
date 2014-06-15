@@ -327,7 +327,7 @@ Se a expressão é uma tupla, ela deve ser inserida entre parênteses (ex.,
    >>> # criar uma lista de duplas, ou tuplas de 2, como (numero, quadrado)
    >>> [(x, x**2) for x in range(6)]
    [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
-   >>> # a tupla deve estar emtre parênteses, do contrário ocorre um erro
+   >>> # a tupla deve estar entre parênteses, do contrário ocorre um erro
    >>> [x, x**2 for x in range(6)]
      File "<stdin>", line 1
        [x, x**2 for x in range(6)]

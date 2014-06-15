@@ -190,7 +190,7 @@ Para acelerar a inicialização de programas curtos que usam muitos módulos da
 biblioteca padrão, sempre que existe um arquivo chamado :file:`spam.pyc` no
 mesmo diretório de :file:`spam.py`, o interpretador assume que aquele arquivo
 contém uma versão "byte-compilada" de :mod:`spam`. O horário de modificação da
-versão de :file:`spam.py` a partir da qual :file:`spam.pyc` foi gerado é
+versão de :file:`spam.py` a partir da qual :file:`spam.pyc` foi gerado
 é armazenada no arquivo compilado, e o :file:`.pyc` não é utilizado se o
 horário não confere.
 

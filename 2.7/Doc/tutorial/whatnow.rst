@@ -32,7 +32,7 @@ desta documentação são:
 Mais recursos sobre python:
 
 * http://www.python.org:  O site oficial do Python. Contém código, documentação
-  a aponta para para outras páginas na web relacionadas a Python. Este site é
+  a aponta para outras páginas na web relacionadas a Python. Este site é
   espelhado em vários lugares ao redor do mundo como Europa, Japão e Austrália;
   Um servidor secundário pode ser mais rápido que o site principal dependendo
   da sua localização geográfica.
