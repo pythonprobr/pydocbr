@@ -46,7 +46,7 @@ Comando :keyword:`for`
    statement: for
    statement: for
 
-O comando :keyword:`for` em Python difere um tanto do que você talvez esteja
+O comando :keyword:`for` em Python difere um tanto do que talvez estejas
 acostumado em C ou Pascal. Ao invés de se iterar sobre progressões
 aritméticas (como em Pascal), ou dar ao usuário o poder de definir tanto o
 passo da iteração quanto a condição de parada (como em C), o comando
@@ -71,9 +71,9 @@ lista ou uma string), na ordem em que eles aparecem na sequência. Por exemplo:
 
 
 Não é seguro modificar a sequência sobre a qual se baseia o laço de iteração
-(isto pode acontecer se a sequência for mutável, isto é, uma lista). Se você
+(isto pode acontecer se a sequência for mutável, isto é, uma lista). Se 
 precisar modificar a lista sobre a qual está iterando (por exemplo, para
-duplicar itens selecionados), você deve iterar sobre uma cópia da lista ao
+duplicar itens selecionados), é preciso iterar sobre uma cópia da lista ao
 invés da própria. A notação de fatiamento é bastante conveniente para isso:
 
    >>> for x in a[:]: # fazer uma cópia da lista inteira
@@ -181,7 +181,7 @@ Isto é usado muitas vezes para se definir classes mínimas::
    ...
 
 Outra situação em que :keyword:`pass` pode ser usado é para reservar o lugar
-de uma função ou de um bloco condicional, quando você está trabalhando em
+de uma função ou de um bloco condicional, quando se está trabalhando em
 código novo, o que lhe possibilita continuar a raciocinar em um nível mais
 abstrato. O comando :keyword:`pass` é ignorado silenciosamente::
 
@@ -254,7 +254,7 @@ mecanismo serve para renomear funções::
    >>> f(100)
    0 1 1 2 3 5 8 13 21 34 55 89
 
-Conhecendo outras linguagens, você pode questionar que ``fib`` não é uma
+Conhecendo outras linguagens, pode-se questionar que ``fib`` não é uma
 função, mas um procedimento, pois ela não devolve um valor. Na verdade, mesmo
 funções que não usam o comando :keyword:`return` devolvem um valor, ainda que
 pouco interessante. Esse valor é chamado ``None`` (é um nome embutido). O
@@ -377,7 +377,7 @@ Esse código vai exibir::
    [1, 2]
    [1, 2, 3]
 
-Se você não quiser que o valor default seja compartilhado entre chamadas
+Se não quiser que o valor default seja compartilhado entre chamadas
 subsequentes, pode reescrever a função assim::
 
    def f(a, L=None):
@@ -612,7 +612,7 @@ Intermezzo: estilo de codificação
 .. sectionauthor:: Georg Brandl <georg@python.org>
 .. index:: pair: coding; style
 
-Agora que você está prestes a escrever peças mais longas e complexas em
+Agora que estás prestes a escrever peças mais longas e complexas em
 Python, é uma bom momento para falar sobre *estilo de codificação*. A maioria
 das linguagens podem ser escritas (ou *formatadas*) em diferentes estilos;
 alguns são mais legíveis do que outros. Tornar o seu código mais fácil de ler,
@@ -622,7 +622,7 @@ agradável ajuda bastante.
 Em Python, o :pep:`8` tornou-se o guia de estilo adotado pela maioria dos
 projetos; ele promove um estilo de codificação muito legível e visualmente
 agradável. Todo desenvolvedor Python deve lê-lo em algum momento; aqui estão
-os pontos mais importantes selecionados para você:
+os pontos mais importantes selecionados:
 
 * Use 4 espaços de recuo, e nenhum tab.
 
